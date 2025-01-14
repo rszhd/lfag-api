@@ -1,0 +1,15 @@
+version: "3"
+services:
+  promptmgr-lfag:
+    container_name: promptmgr-lfag
+    build: ./
+    ports:
+      - 4300:4300
+    volumes:
+      - ./volume:/promptmgr-lfag/volume
+    networks:
+      - promptmgr-lfag
+
+networks:
+  promptmgr-lfag:
+    external: true
