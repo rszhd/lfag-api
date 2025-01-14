@@ -4,7 +4,6 @@ import PromptManager from 'promptmgr-sdk';
 dotenv.config();
 
 const promptManager = new PromptManager({
-  baseUrl: `${process.env.PROMPTMGR_API_URL}/api/service`,
   secretKey: process.env.PROMPTMGR_SECRET_KEY,
   environment: process.env.PROMPTMGR_ENVIRONMENT,
   projectId: process.env.PROMPTMGR_PROJECT_ID
