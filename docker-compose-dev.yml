@@ -4,13 +4,6 @@ services:
     build: ./
     command: npm run dev
     ports:
-      - 4300:4300
+      - 4800:4800
     volumes:
       - ./:/promptmgr-lfag
-      - ./volume:/promptmgr-lfag/volume
-    networks:
-      - promptmgr
-
-networks:
-  promptmgr:
-    external: true

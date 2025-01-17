@@ -4,6 +4,4 @@ services:
     container_name: promptmgr-lfag
     build: ./
     ports:
-      - 4300:4300
-    volumes:
-      - ./volume:/promptmgr-lfag/volume
+      - 4800:4800
