@@ -44,7 +44,7 @@ This functionality is also available as a PROMPTMGR plugin. To use it:
 1. Navigate to your PROMPTMGR dashboard
 2. Go to the Plugins section
 3. Enable the Long Form Content Generation plugin
-4. [Screenshot showing how to enable the plugin]
+![](https://res.cloudinary.com/df4wiowjo/image/upload/v1737113306/Screenshot_from_2025-01-17_19-25-59_qvbodg.png)
 5. You can fork the prompts for customization
 
 ## How It Works
