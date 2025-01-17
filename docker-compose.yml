@@ -5,3 +5,9 @@ services:
     build: ./
     ports:
       - 4800:4800
+    networks:
+      - promptmgr-lfag
+
+networks:
+  promptmgr-lfag:
+    external: true
