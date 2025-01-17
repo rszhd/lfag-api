@@ -1,6 +1,6 @@
 ## Overview
 
-This sample implementation showcases how to use PROMPTMGR to generate coherent, structured long-form content by breaking down the generation process into manageable segments while maintaining context and flow throughout the document.
+This sample implementation showcases how to use [PROMPTMGR](https://www.promptmgr.com/) to generate coherent, structured long-form content by breaking down the generation process into manageable segments while maintaining context and flow throughout the document.
 
 ## Features
 
