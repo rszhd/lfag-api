@@ -5,7 +5,7 @@ This sample implementation showcases how to use [PROMPTMGR](https://www.promptmg
 ## Features
 
 - Long-form content validation
-- Content specification generation
+- Content specification generation 
 - Segmented content generation with context awareness
 
 ## Usage
@@ -37,9 +37,18 @@ npm run dev:composeup
 }
 ```
 
+## View Demo Prompts
+
+You can view the prompts used in this project by logging into the [PROMPTMGR](https://app.promptmgr.com/signin?email=demo1@promptmgr.com&password=1234qwer) demo account:
+
+```
+Login: demo1@promptmgr.com
+Password: 1234qwer
+```
+
 ## Using PROMPTMGR Plugin
 
-This functionality is also available as a PROMPTMGR plugin. To use it:
+This functionality is also available as a [PROMPTMGR](https://www.promptmgr.com/) plugin. To use it:
 
 1. Navigate to your PROMPTMGR dashboard
 2. Go to the Plugins section
