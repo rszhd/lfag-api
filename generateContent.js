@@ -25,7 +25,12 @@ const validateLongFormContent = async (instruction, modelSettings) => {
   const result = await promptManager.run({
     promptId: process.env.PROMPT_ID_DETERMINE_CONTENT_LENGTH,
     action: 'determineContentLength',
-    modelSettings,
+    modelSettings: {
+      ...modelSettings,
+      model: modelSettings.model === 'gpt-4o-mini'
+        ? 'gpt-4o-mini'
+        : 'gpt-4o'
+    },
     variables: [{ field: 'instruction', value: instruction }]
   });
 
@@ -39,7 +44,12 @@ const getContentSpecifications = async (instruction, modelSettings) => {
   const result = await promptManager.run({
     promptId: process.env.PROMPT_ID_GENERATE_CONTENT_SPECS,
     action: 'generateContentSpecs',
-    modelSettings,
+    modelSettings: {
+      ...modelSettings,
+      model: modelSettings.model === 'gpt-4o-mini'
+        ? 'gpt-4o-mini'
+        : 'gpt-4o'
+    },
     variables: [{ field: 'instruction', value: instruction }]
   });
   
